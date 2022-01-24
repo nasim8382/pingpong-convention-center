@@ -64,18 +64,13 @@ body{
     padding-bottom: 70px;
 }
 
-/* luxury interior section */
+/* frequently asked questions */
 #frequently-asked-questions{
     margin-bottom: 100px;
 }
-
-/* frequently asked questions */
 .accordion-button:focus {
     border-color: white;
     box-shadow: none;
-}
-.accordion-button:focus {
-    border-color: white;
 }
 .accordion-button:not(.collapsed) {
     color: black;
