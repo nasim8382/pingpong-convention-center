@@ -32,24 +32,25 @@ body{
 
 /*  every moment section  */
 #every-moment{
-    margin: 50px 0;
+    margin-top: 150px;
+    position: relative;
+}
+.toast{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 /*  our package section  */
-#package h1{
+#our-packages{
     padding-top: 50px;
 }
-#package .package-card{
-    margin-top: 60px;
-    height: 250px;
-}
-#package .package-card-third{
-    margin-top: 30px;
-    padding-bottom: 1rem;
+.package-card{
     background-color: rgba(226, 43, 128, 0.541);
+    box-shadow: 3px 25px 20px rgba(238, 130, 238, 0.562);
+    margin-top: -30px;
     position: relative;
     border-radius: 20px;
-    box-shadow: 3px 25px 20px rgba(238, 130, 238, 0.562);
 }
 
 /*  happy client section  */
@@ -108,43 +109,12 @@ body{
         margin-top: 2%;
         padding: 2px 5px;
     }
-    #package .package-cards{
-        display: flex;
-        justify-content: center;
+    .toast{
+        position: absolute;
+        top: -70px;
+        left: 0;
     }
-    #package .package-card{
-        width: 300px;
-        margin-left: 15%;
-    }
-    #package .package-card-one{
-        margin-top: 10px;
-    }
-    #package .package-card-two{
-        margin-top: 110px;
-    }
-    #package .package-card-third{
-        width: 300px;
-        padding-left: 15%;
-        margin-top: 150px;
-        margin-bottom: -30px;
-    }
-    #happy-client{
-        margin-top: 100px;
-    }
-
-/*------------------------
-   for medium devices
---------------------------*/
-
-@media only screen and (min-width: 769px) and (max-width: 992px){
-    #package .package-card{
-        width: 300px;
+    .package-cards{
         margin: auto;
-    }
-    #package .package-card-third{
-        width: 300px;
-        padding-left: 15%;
-        margin-top: 150px;
-        margin-bottom: -30px;
     }
 }
